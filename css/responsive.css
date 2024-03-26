@@ -1,0 +1,36 @@
+@media screen and (max-width:1000px) {
+    body {
+        background-color: azure;
+    }
+    .slider img{
+      width: 80vw;
+    }
+    header {
+        height: 19vh;
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 0 1vw 0 3vh;
+    }
+
+    .btn {
+        margin-right: 3vh;
+    }
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+:root{
+    --main-bg-color:#2874f0; 
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: azure;
+}
+.container{
+    /* Proper Spacing is must for below */
+    min-height: calc(100vh - 58px - 12vh);
+
+   
+}
+
+header {
+    height: 58px;
+    background-color:  var(--main-bg-color);
+    /* border: 2px red solid; */
+}
+
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: grey;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 10px 0 56px;
+    padding: 0 12px;
+    
+}
+.search button{
+    font-family: "Anta", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.slider{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    /* background-color: aqua; */
+    /* overflow: scroll; */
+    max-width: 91vw;
+    margin: auto;
+
+}
+.cart{
+    display: inline-flex;
+    
+}
+.card h2{
+    font-family: "Anta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.my-26{
+    margin: 26px 0;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    margin: 0 17px;
+   
+}
+
+.lines{
+    text-align: center;
+}
+.box{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 10px;
+}
+footer {
+    height: 12vh;
+    background-color:  var(--main-bg-color);
+    color: white;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
